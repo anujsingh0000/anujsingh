@@ -2595,5 +2595,71 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
+/* === Projects Section === */
+.projects-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: .3s;
+  padding-bottom: 20px;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+}
+
+.project-img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 20px;
+  margin: 15px 20px 5px;
+  font-weight: 700;
+}
+
+.project-desc {
+  font-size: 14px;
+  color: #4a4a4a;
+  margin: 0 20px 10px;
+  min-height: 50px;
+}
+
+.project-tech {
+  display: inline-block;
+  background: #0057ff;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 15px;
+  margin: 10px 20px;
+}
+
+.project-btn {
+  display: block;
+  margin: 10px 20px 0;
+  background: #111;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  transition: .3s;
+}
+
+.project-btn:hover {
+  background: #0057ff;
+}
+
 
 /*# sourceMappingURL=main.css.map */
